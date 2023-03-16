@@ -1,0 +1,42 @@
+\documentclass[11pt]{beamer}
+
+\usetheme{Copenhagen}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+
+\title{Sistemas Embebidos con el ARM-Cortex-M4}
+\subtitle{Conceptos Esenciales de Sistemas Embebidos}
+\author[Alex S. Kelly]{Alejandro S. Kelly}
+\institute[]{Pulsar Labs}
+
+
+\begin{document}
+
+    \frame{\titlepage}
+
+    \section{Introducción}
+
+    \begin{frame}
+        \frametitle{¿Que es un sistema embebido?}
+
+        \onslide<2>{Un Sistema Embebido es un dispositivo \emph{computarizado} dedicado realizar un conjunto de tareas \emph{tangibles} en el mundo real.\hfill \break}
+            
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Computación Embebida vs Computación de Propósito General}
+
+        \only<1>{Estudiando Sistemas Embebidos, es de interés contrastar 2 paradigmas, la computación embebida (obviamente) y la general. \hfill \break}
+
+        \only<2>{Los dispositivos de propósito general (PC's, teléfonos, etc) proveen un entorno computacional abierto y extensible por el usuario, con
+                 recursos de hardware abundantes que se utilizan sin limitaciones evidentes. Esto les permite realizar infinidad de tareas.}
+
+        \only<3>{En contraste, los sistemas embebidos proveen una funcion especifica y no modificable, el hardware es limitado, y contempla lo mínimo necesario para cumplir
+                 con una función o tarea dada.
+                }
+
+    \end{frame}
+
+\end{document}
